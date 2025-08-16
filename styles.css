@@ -91,11 +91,12 @@ img {
 .hero {
   position: relative;
   height: 100vh;
-  background-image: ul(/her.png');
+  /* Use relative path for hero image so it works in GitHub Pages */
+  background-image: url('hero.png');
   background-size: cover;
   background-position: center;
-  display: flex
-  align-items: center
+  display: flex;
+  align-items: center;
   justify-content: center;
   color: var(--color-text-light);
   text-align: center;
